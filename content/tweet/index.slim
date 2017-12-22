@@ -1,0 +1,23 @@
+.row
+  .ui.three.stackable.doubling.link.cards
+    - sorted_tweet.each do |tweet|
+      <div class="ui #{random_color} card">
+        .content
+          h1.header == tweet[:title] 
+          .meta
+            date == attribute_to_time(tweet[:created_at]).strftime('%b %d, %Y')
+            - tweet[:tags].each do |tag|
+              <div class="ui #{random_color} inverted label">
+                == tag 
+              </div>
+          .description
+            h5.header == tweet.compiled_content
+      </div>
+
+script src="/static/javascripts/masonry.pkgd.min.js"
+javascript:
+  $('.ui.stackable.grid').masonry({
+    itemSelector: '.ui.card',
+    percentPosition: true,
+    //columnWidth: 900
+  });

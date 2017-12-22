@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    == render '/header.*'
+  body lang == (@item[:lang] || 'en')
+    noscript
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3BCLF2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    #content
+      == render '/menu.*'
+      == yield
+
+    #footer
+      == render '/footer.*'

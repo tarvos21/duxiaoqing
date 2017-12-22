@@ -121,11 +121,11 @@ checks:
     #   exclude_files: ['blog/page']
     exclude_files: []
 
-base_url: http://dubing.me
+base_url: http://duxiaoqing.com
 
 meta:
   # Default title, that is added to an item's own title
-  title: Develop to Know and Love
+  title: 杜小清的主页
 
   # Default author of a page
   author: Bingo Du
@@ -134,7 +134,7 @@ meta:
   email: tarvos21@gmail.com
 
   # Default keywords to use when an item does not specify its own
-  keywords: Bingo Du, tarvos21, Du Bing, 杜兵
+  keywords: 杜小清, 杜兵的爸爸
 
   # Default description to use when an item does not specify its own
-  description: Bingo Du, tarvos21, Du Bing, 杜兵
+  description: 杜小清，1962年出生，是杜兵的爸爸，平时会写作一些诗和文章，杜兵将它们录入到电脑，并拍照，之后做成网页，放到网上，留作纪念，也可让其他人欣赏。始于2017年12月22日。

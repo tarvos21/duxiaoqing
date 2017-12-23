@@ -1,5 +1,8 @@
 .sixteen.wide.column
-  h1 == @item[:title]
+  .ui.header
+    h1 == @item[:title]
+    .sub.header
+      h3 == @item[:created_at]
   == yield
 
   .ui.right.floated.blue.button

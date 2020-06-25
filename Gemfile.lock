@@ -65,7 +65,7 @@ GEM
     pry-byebug (3.4.0)
       byebug (~> 9.0)
       pry (~> 0.10)
-    rack (2.0.1)
+    rack (2.2.3)
     rainpress (1.0)
     rake (11.2.2)
     rb-fsevent (0.9.7)
